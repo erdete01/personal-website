@@ -1,0 +1,51 @@
+#map {
+    height: 400px;
+    width: 80%;
+    margin-left: 9%;
+    
+}
+
+body {
+    /* background-color: lightblue; */
+    background-image: url(https://images.hdqwalls.com/download/minimalistic-abstract-colors-simple-background-5k-fc-2048x1152.jpg);
+  }
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    font-weight: bold;
+    padding-top: 30px;
+    color: white;
+    /* margin-left: 16%; */
+}
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 200%;
+    font-weight: bold;
+    padding-top: 0px;
+    color: white;
+}
+
+p {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+#inputName {
+    /* margin-left: 10%; */
+    margin-top: 1.5%;
+}
+
+#inputInfo {
+    /* margin-left: 16.5%; */
+    margin-top: 2%;
+}
+
+td th {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    color: white;
+    background-color: white;
+}
+

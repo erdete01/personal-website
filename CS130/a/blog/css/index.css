@@ -1,0 +1,98 @@
+    * {font-family: 'Roboto Slab', serif;}
+	
+    * {
+        box-sizing: border-box;
+    }
+    div {
+        display: block;
+    }
+
+    body {
+	   padding: 15px;
+	   font-size: 16px;
+	   font-family: "Lato", "Helvetica", sans-serif;line-height: 1.6;
+	   color:  #ffffff;
+	   margin: auto;
+	   border: 1px solid #efefef;
+	   border-top: none;
+       background-image: url(../images/naruto.jpg);
+       max-width: 1500px;
+       }
+    strong {
+    color: yellow;
+}
+	h2 {
+	   	font-family:"Lato", "Helvetica" sans-serif;
+	   	color: #ff000c;
+	    text-transform: uppercase;}
+	h1 {
+		font-family:"Lato", "Helvetica" sans-serif;
+		color: #d8ff00;
+	    margin: 0 0 40px;
+        font-size: 50px;
+	    }
+    h1.about {
+        font-family:"Lato", "Helvetica" sans-serif;
+        color: #0000FF;
+        text-transform: uppercase;}
+
+	strong {color: #333333;}
+	p.one {
+    	color: #5b5b5b;}
+    li.gg {
+    	display: inline-block;
+    	margin-right: 10px;
+
+        }
+    ul.menu {
+    	list-style-type: circle;
+    	padding: 0 auto;}
+    li..menu1 {
+        display: block;
+        margin-right: auto;
+    	}
+    a:link {
+    	color: blue;}
+    a:visited {
+    	color: orange;}
+    a:hover {
+    	color: firebrick;}
+
+    p.one {
+    	color: #5b5b5b;}
+    p.font {
+        font-size: 20px;
+    }
+    
+    .button {
+    	border-radius: 12px;
+    	background-color: #AEEEEE;
+    	padding:10px 20px;}
+    .button1 {
+        border-radius: 50%;
+        background-color: blue;
+        padding:10px 20px;}
+
+    .submit {
+        border-radius: 10px;
+        border: none;
+        box-shadow: blue;
+        font-size: 50px;
+    }
+    #hr1 {margin-top: 30px;
+          margin-bottom: 30px;}
+    blockquote {border: 2px solid grey;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+
+
+
+    

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <title>MidTerm Project</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row">
+          <div class="col-sm">
+          </div>
+          <div class="col-sm">
+            <h1 id="greeting"></h1> <p id="demo"></p>
+            <h2>Want to know the weather outside? </h2>
+            <input id="inputName" class="test" required/>
+          </br>
+            <button class="btn btn-success" id="inputInfo" onclick="getInfo()">Write City Name</button>
+          </div>
+          <div class="col-sm">
+            
+          </div>
+        </div>
+      </div>
+
+    </br>
+    </br>
+
+    <div class="table-responsive">
+    <table id="post" class="table table-hover">
+        <thead id="post1" class="thead-dark">
+            <th scope="col">City Name</th>
+            <th scope="col">Weather(Celsius)</th>
+            <th scope="col">Description</th>
+            <th scope="col">Icon</th>
+            <th scope="col">Coordinator</th>
+        </thead>
+        <tbody class="table-light" scope="row"></tbody>
+    </table>
+    </div>
+
+    <p id="get">We will use the city coordinator to show on the map: </p>
+    <p id="get2"></p>
+
+    <div id="map">
+    </div>
+
+    <!-- Local Storage -->
+    <div id=menu>
+    </div>
+
+
+    <!-- Google API Map -->
+    <script async
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmRmSnfy32J5HEvK3C3Lck5gpym631SMk&callback=getInfo">
+    </script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
+    <!-- Copyright Section -->
+   <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Copyright &copy; Temuulen Erdenebulgan 2020</small>
+    </div>
+  </section>
+
+</body>
+</html>

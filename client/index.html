@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- load MUI -->
+    <link href="//cdn.muicss.com/mui-0.10.1/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-0.10.1/js/mui.min.js"></script>
+    <title>Project</title>
+
+</head>
+<body>
+    <!-- For a randome joke -->
+    <div class="mui-container mui--text-center">
+      <div class="mui-panel mui--text-center">
+        <h1>Return a Random Joke</h1>
+        <button class="mui-btn mui-btn--primary mui-btn--raised" onclick="requestData() ">Click Here</button>
+      </div>
+    </div>
+    <!-- Displays the jokes -->
+    <div class="mui-container mui--text-center">
+      <div class="mui-panel mui--text-center" id="response"></div>
+  </div>
+
+  <!-- For the specific Joke -->
+  <div class="mui-container mui--text-center">
+    <div class="mui-panel mui--text-center">
+      <h1>Return the *specified* joke</h1>
+      <label>Enter your number</label>
+      <input id="inputName" required/>
+      <button class="mui-btn mui-btn--primary mui-btn--raised" onclick="getInfo()">Click Here</button>
+    </div>
+  </div>
+  <!-- Display Jokes -->
+  <div class="mui-container mui--text-center">
+    <div class="mui-panel mui--text-center" id="anotherResponse"></div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>
